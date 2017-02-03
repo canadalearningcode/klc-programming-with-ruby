@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> wifi network</p>
+        <p><strong>Password:</strong> wifi password</p>
+        <hr>
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a>. Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Intro to Coding:<br>
+        Programming with Ruby</span>
+      </h1>
+
+      <!-- FILL IN INSTRUCTOR DETAILS -->
+      <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name">
+      <h2><span class="cursive">with</span> Instructor name</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="http://website.com">website.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a>. Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table of Contents
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Example Projects + Guest Speaker (10am)
+
+        Project Ideation + Wireframing (10:15am)
+
+        Intro to HTML + CSS (10:45am)
+
+        Lunch (12:30pm)
+
+        Building time! (1:15pm)
+
+        Demos + Pushing Live (3:30pm) -->
+
+       </script>
+    </section>
+
+      <!-- Insert Agenda for the workshop -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Agenda
+
+        Intro to Programming
+
+        Coding in Ruby
+
+        Break
+
+        [Insert Activity]
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Coders Code Banner](framework/img/workshop/scroll2.png)
+         ## 1. ASK FOR HELP  <!-- .element: class="delayed" -->
+         ## 2. BE PRESENT  <!-- .element: class="delayed" -->
+         ## 3. TRY YOUR BEST!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO
+
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+     </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+        ## We're learning how to create programs using Ruby
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Activity Name
+
+          ![http://giphy.com/gifs/happy-celebration-yay-9EVZWCxypKQxi](framework/img/workshop/adventure-time.gif)
+
+          <br>
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="http://giphy.com/gifs/happy-celebration-yay-9EVZWCxypKQxi">Adventure Time Gif</a>
+            </div>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # What is Ruby?
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Ruby is a Programming Language
+
+        <br>
+        ![https://commons.wikimedia.org/wiki/File:Ruby_logo.svg](framework/img/workshop/ruby-logo.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://commons.wikimedia.org/wiki/File:Ruby_logo.svg">Ruby image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #RUBY
+        * When we code in Ruby, it's like text messaging Ruby Robot
+          * We type our code into the INPUT and Ruby's response shows in the OUTPUT<!-- .element: class="delayed" -->
+          * We need to speak to Ruby using words that she understands<!-- .element: class="delayed" -->
+        * ![input + output](framework/img/workshop/texting.png)
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="https://pixabay.com/en/message-chat-communication-symbol-42929/">Speech Bubble image</a>
+          </div>
+
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #String a Sentence Together
+
+        What we call <strong>words</strong>, Ruby calls <strong>strings</strong>.
+
+        We type <strong>strings</strong> in "quotations."
+
+        ![beads](framework/img/workshop/beads.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Number Savvy
+
+        What we call <strong>numbers</strong>, Ruby calls <strong>integers</strong>.
+
+        These are whole numbers (without decimals).
+
+        ![http://giphy.com/gifs/count-sings-thecount-YGAQAfXtiLqCs](framework/img/workshop/count.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/count-sings-thecount-YGAQAfXtiLqCs">Sesame Street Gif</a>
+          </div>
+
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Mystery Box
+
+        A <strong>variable</strong> is like a box! It stores information for us.
+
+        We can store <strong>strings</strong> or <strong>integers</strong> inside of <strong>variables</strong>.
+
+        ![variables](framework/img/workshop/variables.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://pixabay.com/en/box-open-cardboard-box-cardboard-152428/">Box image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Stay Sharp!
+
+        Define box as an integer.
+
+        * Jump box times<!-- .element: class="delayed" -->
+        * Wave box times<!-- .element: class="delayed" -->
+        * Clap box times<!-- .element: class="delayed" -->
+
+        Define box as a string.<!-- .element: class="delayed" -->
+
+        * Say "My favourite ice cream is box"<!-- .element: class="delayed" -->
+        * Say "Tell box I found the box that was missing last box"<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Conditions
+
+        <strong>Conditions</strong> are either <strong>true</strong> or <strong>false</strong>.
+
+        <strong>IF</strong> it is a school day... wake up at 7:00.
+
+        <strong>ELSE</strong>... sleep in.
+
+        <p style="color:#00a076">Create your own!</p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">IF ... </p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">ELSE ... </p><!-- .element: class="delayed" -->
+
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        #LET'S GET CODING!
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Texting with Ruby
+        ##Go to <strong><a href="https://repl.it">repl.it</a></strong> and search for 'ruby'
+
+        ![ruby editor](framework/img/workshop/replit.png)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Say Hello!
+
+        ```ruby
+        puts "Hello World"  #Says Hello (this is a comment)
+        ```
+
+        ![ruby editor](framework/img/workshop/textmsg.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Math Whiz
+
+        Ask Ruby some math questions using <strong>operators</strong>!
+
+        ```ruby
+        puts 5 + 10  #Adding
+        puts 5 * 10  #Multiplying
+        puts 10 / 5  #Dividing
+        puts 10 - 5  #Subtracting
+        ```
+
+        ![http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM](framework/img/workshop/calculator.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM">Calculator Gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Ask a Question
+
+        Ask the user a question:
+
+        ```ruby
+        puts "What is your name?"  #Ask for the user's name
+        name = gets.chomp  #Get answer
+        puts "Hello " + name  #Say hello to the user
+        ```
+
+        ![https://commons.wikimedia.org/wiki/File:Lol_question_mark.png](framework/img/workshop/questionmark.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://commons.wikimedia.org/wiki/File:Lol_question_mark.png">Question Mark image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Which One?
+
+        We need to tell Ruby how we want the answer to behave:
+
+        * ... like a <strong>string</strong>? Switch using ```.to_s```
+        * ... like an <strong>integer</strong>? Switch using ```.to_i```
+
+
+        ```ruby
+        puts "What is your age?"  #Ask for age
+        age = gets.chomp  #Get answer
+        age = age.to_i  #Switch age to an integer
+        age = age + 5  #Add 5 to age
+        age = age.to_s  #Switch age to a string
+        puts "In five years you will be " + age
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Booleans
+
+        Ask if something is TRUE or FALSE using these operators:
+
+        ```
+        <   less than
+        >   greater than
+        <=  less than or equal to
+        >=  greater than or equal to
+        ==  equal to
+        ```
+
+        For Example:
+
+        ```ruby
+        number = 5  #Defining the variable 'number'
+        number < 2  #Checking if number is less than 2
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Create a Condition
+
+        Write an IF statement:
+
+        ```ruby
+        puts "What is your name?"  #Ask for user's name
+        name = gets.chomp.downcase  #Get answer and make all letters lowercase
+        if name == "bob"  #Make a condition for IF the answer is bob
+          puts "WHAAAAT! We have the same name!"  #Say something if this is TRUE
+        end
+        ```
+
+        ![http://giphy.com/gifs/dark-thread-after-lCP95tGSbMmWI](framework/img/workshop/bob.gif)
+
+        * But what if the user enters something else?<!-- .element: class="delayed" -->
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/dark-thread-after-lCP95tGSbMmWI">Minion Gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Create a Condition
+
+        We need to think of EVERYTHING:
+
+        ```ruby
+        if  #Create condition 1
+          #Put result here
+        else  #All other possibilities
+          #Put result here
+        end
+        ```
+        OR
+        ```ruby
+        if  #Create condition 1
+          #Put result here
+        elsif  #Create condition 2
+          #Put result here
+        else  #All other possibilities
+          #Put result here
+        end
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Log in & Save
+        ##Click on "Log in" (top corner)
+
+        ![repl.it login](framework/img/workshop/replit-login.png)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Guessing Game: Challenge
+
+        * Choose a number (create a new variable)<!-- .element: class="delayed" -->
+        * Ask the user to guess<!-- .element: class="delayed" -->
+        * Get their answer<!-- .element: class="delayed" -->
+        * Switch their answer to an integer<!-- .element: class="delayed" -->
+        * Create an IF condition if they guess too low<!-- .element: class="delayed" -->
+        * Create an ELSIF condition if they guess too high<!-- .element: class="delayed" -->
+        * Create an ELSE condition for the correct guess (only other option)<!-- .element: class="delayed" -->
+        * End your IF, ELSE statement<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Guessing Game: Solution
+
+        Create an IF statement:
+
+        ```ruby
+        number = 3  #Choose number
+        puts "Guess a number between 1 and 10"  #Ask user to guess
+        guess = gets.chomp  #Get answer
+        guess = guess.to_i  #Switch guess to an integer
+        if guess < number  #Create condition for lower guess
+	       puts "too small!"
+        elsif guess > number  #Create condition for higher guess
+	       puts "too big!"
+        else  #Create condition for the correct guess (only other option)
+	       puts "just right"
+        end
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Guessing Game: Random Number
+
+        Replace:
+
+        ```ruby
+        number = rand(1..10)
+        ```
+        Chooses a random number between 1 and 10
+
+        ![http://tsaoshin.deviantart.com/art/Part-of-Your-No-388260981](framework/img/workshop/random.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://tsaoshin.deviantart.com/art/Part-of-Your-No-388260981">Part of Your No by TsaoShin</a>
+        </div>
+
+        </script>
+      </section>
+
+      <section class="slide" data-markdown>
+        <script type="text/template">
+        # Guessing Game: Loop
+        ##For example...
+        ```ruby
+        5.times do  #Loop the program 5 times
+
+
+          *JAZZ HANDS*
+
+
+        end  #End the loop
+        puts "That's all, folks!"
+        ```
+
+        </script>
+      </section>
+
+      <section class="slide" data-markdown>
+        <script type="text/template">
+        # Guessing Game: Loop
+
+        ```ruby
+        number = rand(1..10)  #Keep this at the top
+
+        10.times do  #Loop the program for 10 rounds
+
+          puts "Guess a number between 1 and 10"
+          guess = gets.chomp
+          guess = guess.to_i
+          if guess < number
+            puts "too small!"
+          elsif guess > number
+            puts "too big!"
+          else
+            puts "just right"
+            break  #Break the loop when they guess correctly
+          end
+
+        end  #End the loop
+        puts "Game Over"  #Tell the user when the game is over
+        ```
+
+        </script>
+      </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #MAIN PROJECT
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Project Title
+        ##Description
+
+        STEPS:
+
+        * Instructions
+        * Instructions
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Project Title
+        ##Possible Solution
+
+        ```ruby
+        #Paste solution here
+        ```
+
+      </script>
+    </section>
+
+    <main>
+
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Today I Learned...
+
+          <p><strong>I can</strong> create algorithms in Ruby</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use variables to store information</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use if statements to control what happens in my program</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use loops to make things happen more than once</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use Ruby to KEEP CODING!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span> Intro to Coding:<br>Programming with Ruby</span>
+      </h2>
+
+      <img class="instructor" src= "http://placehold.it/225x225" alt="Name">
+      <h2><span class="cursive">with</span> Instructor</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="link">personalsite.io</a></li>
+        <li><a href="https://twitter.com/">@twitterhandle</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
