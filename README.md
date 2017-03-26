@@ -1,7 +1,7 @@
-#NOT YET AVAILABLE TO CHAPTERS
-#Kids Learning Code: Programming with Ruby
+# NOT YET AVAILABLE TO CHAPTERS
+# Kids Learning Code: Programming with Ruby
 
-##Quick Links
+## Quick Links
 
 Preview Facilitator Guide: <a href="https://ladieslearningcode.github.io/klc-programming-with-ruby/facilitator-guide.html">ladieslearningcode.github.io/klc-programming-with-ruby/facilitator-guide.html</a>
 
@@ -9,14 +9,14 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/klc-programming-wi
 
 Activity List: <a href="http://bit.ly/ruby-activity-list">bit.ly/ruby-activity-list</a>
 
-##Additional Resources (Optional)
+## Additional Resources (Optional)
 
 Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
 
 Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
 
 
-#HOW TO USE:
+# HOW TO USE:
 ## Before the Workshop
 1 Week to Go
 
@@ -32,10 +32,9 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info and bit.ly link to the Scratch class (Slide 1)
-    * Edit the facilitator info with your photo and details (Slide 2 and 38)
     * Edit the Agenda to adjust timing and/or activities, if applicable (Slide 5)
     * Add the chosen Work Session activity name and gif in the opening slide (Slide 10)
-    * Paste the Work Session activity STEPS (Slide 35) and Solution (Slide 36)
+    * Paste the Work Session activity STEPS (Slide 35-36) and Solution (Slide 37)
 
 1 Day to Go
 
