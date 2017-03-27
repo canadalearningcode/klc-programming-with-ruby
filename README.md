@@ -1,4 +1,3 @@
-# NOT YET AVAILABLE TO CHAPTERS
 # Kids Learning Code: Programming with Ruby
 
 ## Quick Links
