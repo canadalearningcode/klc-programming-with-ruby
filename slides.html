@@ -405,13 +405,13 @@
 
         <strong>Conditionals</strong> are either <strong>true</strong> or <strong>false</strong>.
 
-        <strong>IF</strong> it is a school day... wake up at 7:00.
+        <strong>if</strong> it is a school day... wake up at 7:00.
 
-        <strong>ELSE</strong>... sleep in.
+        <strong>else</strong>... sleep in.
 
         <p style="color:#00a076">Create your own!</p><!-- .element: class="delayed" -->
-        <p style="color:#00a076">IF ... </p><!-- .element: class="delayed" -->
-        <p style="color:#00a076">ELSE ... </p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">if ... </p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">else ... </p><!-- .element: class="delayed" -->
 
 
       </script>
@@ -447,12 +447,12 @@
       <script type="text/template">
         # Create a Condition
 
-        Write an IF statement:
+        Write an *if* statement:
 
         ```ruby
         puts "What is your name?"  #Ask for user's name
         name = gets.chomp.downcase  #Get answer and make all letters lowercase
-        if name == "bob"  #Make a condition for IF the answer is bob
+        if name == "bob"  #Make a condition for *if* the answer is bob
           puts "WHAAAAT! We have the same name!"  #Say something if this is TRUE
         end
         ```
@@ -518,10 +518,10 @@
         * Ask the user to guess<!-- .element: class="delayed" -->
         * Get their answer<!-- .element: class="delayed" -->
         * Switch their answer to an integer<!-- .element: class="delayed" -->
-        * Create an IF condition if they guess too low<!-- .element: class="delayed" -->
-        * Create an ELSIF condition if they guess too high<!-- .element: class="delayed" -->
-        * Create an ELSE condition for the correct guess (only other option)<!-- .element: class="delayed" -->
-        * End your IF, ELSE statement<!-- .element: class="delayed" -->
+        * Create an if condition if they guess too low<!-- .element: class="delayed" -->
+        * Create an elsif condition if they guess too high<!-- .element: class="delayed" -->
+        * Create an else condition for the correct guess (only other option)<!-- .element: class="delayed" -->
+        * End your if, else statement<!-- .element: class="delayed" -->
 
       </script>
     </section>
@@ -531,7 +531,7 @@
       <script type="text/template">
         # Guessing Game: Solution
 
-        Create an IF statement:
+        Create an if statement:
 
         ```ruby
         number = 3  #Choose number
@@ -650,7 +650,7 @@
         * Set up the story! Use ```puts "String"``` (add a pause with ```sleep 2```)
         * Ask a question with two options: A or B
         * Get the answer
-        * Create an IF, ELSIF statement:
+        * Create an if, elsif statement:
           * ```if choice == "A"``` or ```if choice.include? "A"```
           * Make something happen if they choose A
           * Create an ```elsif``` condition if they choose B
