@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Instructor Notes
+
+        ##Kids Learning Code: Programming with Ruby
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Using Ruby</a>
+        ###<a href="#slide3" target="_self">Schedule</a>
+        ###<a href="#slide4" target="_self">Introduction</a>
+        ###<a href="#slide5" target="_self">Code-Along</a>
+        ###<a href="#slide6" target="_self">Work Session</a>
+        ###<a href="#slide7" target="_self">Unplugged Activity (Optional)</a>
+        ###<a href="#slide8" target="_self">Closing</a>
+
+        <br>
+        #Using Ruby
+
+        <a href="https://www.ruby-lang.org/en/">Ruby</a> is an open-source programming language that can be used to communicate anything from a simple mathematical equation, to an interactive game. We will use <a href="https://repl.it/languages/ruby">repl.it</a>, a free, cloud coding environment, to make our programs come to life. Here are a few resources to get you started:
+
+        * <a href="http://tryruby.org/levels/1">Ruby tutorial</a> for beginners
+        * Rubymonstas <a href="http://ruby-for-beginners.rubymonstas.org/">guide</a> (see Variables, Built-In Data Types, and Conditionals)
+        * Repl.it <a href="https://repl.it/help">shortcuts</a>
+
+
+        <br>
+        #Schedule
+
+        ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (30 min)
+
+        ![code icon](framework/img/workshop/code-icon2.png) Code-Along (1 hour)
+
+        ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session (1.5 hours)
+
+        <br>
+        #Introduction
+
+        ##Kick-Off Script
+
+        Welcome to our Kids Learning Code workshop: Programming with Ruby! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+        How many of you have been to one of our workshops or camps before?
+        (If you get some hands up, ask a few of them what workshops they attended)
+
+        We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 29 cities across Canada and have taught over 19,000 kids how to code!
+
+        Before we get started with our workshop, there are a few things we need to go over:
+
+        * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please go with your parent/guardian or go with another learner.
+        * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it.
+        * <strong>Break/snacks:</strong> We’ll have a break mid-way through when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please eat it out front and clean up any crumbs or wrappers when you’re done.
+
+        ##Intro Slides
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+              <td>Now I want to introduce you all to some important people: our mentors!
+                <br><br><em>Have mentors join you at front of class and get them to say their name and favourite website/game</em>
+                <br><br>The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome website! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+              <td> <em>After selecting the activity, insert the activity title in this slide. </em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+              <td>
+                <ol>
+                    <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help.</li>
+                    <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities</li>
+                    <li><strong>Try your best</strong>:Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</li></td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+              <td><em>Take 2-3 responses</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+              <td><em>e.g. Do the Robot unplugged activity (unplugged activity list)</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/9.jpg" alt="slide"></td>
+              <td>A Program is a set of instructions (code) executed by a computer. We can use Ruby to make games, puzzles, and more!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+              <td> <em>Introduce today’s activity</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+              <td><em>Take 2-3 responses</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+              <td>Q: Who here speaks another language, like French or Arabic?
+                <br><br>
+                Ruby is another language that we learn, but instead of using it to talk to other people, we use it to communicate with computers!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+              <td>Q: Has anyone ever sent a message and had to wait a long time before the other person replied? Not with Ruby! She responds right away. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+              <td>Just like we string letters onto a bracelet.</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+              <td> Ruby also understands numbers with decimals. She knows these as Floats.
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+              <td> In this example, the variable (named “box”) can store either the word (string) ten or the number (integer) 10. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+              <td><em>Try this activity standing up!
+                <br><br>
+                If you have a whiteboard, write:
+                <strong>box = 3</strong>
+                <br><br>
+                Otherwise, verbally define the integer
+                <br><br>Next, write:
+                <strong>box = "blueberry"</strong> (e.g.)
+                <br><br>Go through these tasks as a group</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+              <td>Computers like to communicate in Binary, which is made up of 1’s and 0’s. Usually 1 = True, and 0 = False.
+                <br><br>
+                <em>Example prompts:
+                  <br>IF it is raining… ELSE…
+                  <br>IF I am hungry… ELSE…
+                  <br>IF it is summer… ELSE…</em>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+        #Code-Along
+
+        * Go through each step using the slides (after "Let's Get Coding!") while the group follows along.
+        * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this)
+        * For the Guessing Game, go through one list item at a time, and give learners a chance to figure out the code on their own, before asking a volunteer to share their solution with the group.
+        * Have the <a href="https://docs.google.com/document/d/11BLTteUOJkLSPeBCjUgjcNH13h9MiosryJKSN6YE5xg/edit?usp=sharing">Code-Along Challenges</a> handy for mentors to give to learners that are ahead
+        * Remind learners to save often!
+
+        ##Code-Along Slides
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slides</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
+              <td>Time for our Code-Along!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+              <td>We are using repl.it to code in Ruby today. Repl.it is a cloud coding environment, and you can use for coding in many different languages.
+                <br><br>Type in “Ruby” to open the Ruby editor. </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+              <td>Time to begin text messaging with Ruby!
+                <br><br>Enter your code, then click on “Run”
+                <br><br>Whenever you see something with a #hashtag in front of it, you don’t need to type that part. (although it is helpful)
+                <br><br>This is called a comment, which Ruby ignores, but programmers use to organize their code and remember what everything means.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+              <td>Q: Who here is good at math?
+                <br><br>Ruby is really, really good at math! These symbols are called operators (e.g. “+”). We can use them to give Ruby math equations to solve.
+                <br><br>She can help us with our math homework!
+                <br><br><em>Have a volunteer race Ruby to answer a math equation</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+              <td>We can instruct Ruby to ask questions, and then remember the answer that was given!
+                <br><br>Q: What are we doing when we type the word ‘name’?? We are making a variable!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+              <td>Ruby can get confused when we try and use an integer like a string by adding it to a string of text (and vise vera, when we try and do math with words/strings).
+                <br><br>We need to tell Ruby how we want the answer to behave, and how we are going to use it. We need to switch it to an integer before we add 5, and then back to a string before we put it in a sentence. </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+              <td>Ruby will respond with True or False.
+                <br><br>You’ll notice that Ruby response with Nil a lot of the time, as well. Nil just means ‘nothing.’ It means that Ruby is finished completing a task.
+                <br><br>It’s sort of like using walkie talkies and saying “over” every time we finish talking. </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+              <td>Note the difference between = and ==. We use one equal sign to define something, and two equal signs to check if something is the same.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+              <td>Remember these from before? We can add even more options by adding elsif (which combines the words else + if, and goes in between the two).
+                <br><br>We need to write a condition behind IF and ELSIF, but we can leave the space behind ELSE blank, since it represents all other options. </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+              <td>We are going to log in so we can save our next program!
+                <br><br><em>If you want to save your current project, make sure you copy the code before logging in, then paste it in a new project</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+              <td>Q: Are you ready for a challenge??
+                <br><br>We are going to make a guessing game, where the user has to guess a number between 1 and 10.
+                <br><br><em>Display one list item at a time, and give learners a chance to figure out each line of code. Have volunteers share their solutions after 1-2 minutes on each point</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+              <td>Here a possible solution for our Guessing Game program.
+                <br><br>If yours looks slightly different, but still works, that is completely fine!
+                <br><br>Have the person beside you try out your Guessing Game!</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
+              <td>Q: Who here cheated and looked at the number on the left when they guessed? *GASP*
+                <br><br>Let’s take away that option and make Ruby choose for us! We can make Ruby choose a random number between 1 and 10.
+                <br><br><em>Show learners where to change this in their code</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
+              <td>Q: Who is getting tired of clicking “run” every time you want to guess the number?
+                <br><br>We can make the program loop over again for a set amount of rounds (or until the number is guessed)
+                <br><br>This is how a loop works:
+                <br><em>Have a volunteer act this out at the front, or have the entire group stand up and try</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+              <td>Time to add a loop into our Guessing Game!
+                <ol>
+                  <li>Put the loop around your current program. </li>
+                  <li>Make sure you keep the random number outside of the loop (otherwise it will keep changing every time we loop through!)</li>
+                  <li>Add a “break” if the user guesses the answer, in order to stop the loop from repeating.</li>
+                  <li>Make Ruby say something when the game is over.</li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+        #Work Session
+
+        * Select a game or puzzle from the <a href="https://docs.google.com/spreadsheets/d/1tw2aJOtyzZv7ODoQbyrDqRgQzkNWukmalKcCUf9LabI/edit?usp=sharing">activity list</a>. Suggested activity: Choose-Your-Own-Adventure. (be sure to paste the steps and solution into the slides ahead of time)
+        * Get learners started by creating a new project (Click on the repl.it logo, then select “New Session”)
+        * Get the project started code-along style, then leave the STEPS slide up on the screen
+        * Check in with the group every 10-20 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
+        * Remind learners to save often!
+        * Leave time at the end for learners to share their projects with each other. Recommended: Have a Gallery Walk, where learners open the project on their screens, tuck in their chairs, and walk around to see each other's work.
+
+
+        <br>
+        #Unplugged Activity (Optional)
+
+        If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+
+        <br>
+        #Closing Script
+
+        Who can tell me something new they learned today? (<strong>*Refer to slide 39 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+
+        You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+        If you want to learn more about coding, design, and technology, go onto our site kidslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+        Before we go, let’s give our mentors a big hand!
+
+        Thanks and we hope to see you all in another workshop soon!
+       </script>
+    </section>
+
+<!--Additional slides to link from index-->
+
+<section class="slide" data-toc data-markdown>
+  <script type="text/template">
+    #Using Ruby
+
+    <a href="https://www.ruby-lang.org/en/">Ruby</a> is an open-source programming language that can be used to communicate anything from a simple mathematical equation, to an interactive game. We will use <a href="https://repl.it/languages/ruby">repl.it</a>, a free, cloud coding environment, to make our programs come to life. Here are a few resources to get you started:
+
+    * <a href="http://tryruby.org/levels/1">Ruby tutorial</a> for beginners
+    * Rubymonstas <a href="http://ruby-for-beginners.rubymonstas.org/">guide</a> (see Variables, Built-In Data Types, and Conditionals)
+    * Repl.it <a href="https://repl.it/help">shortcuts</a>
+  </script>
+</section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (30 min)
+
+      ![code icon](framework/img/workshop/code-icon2.png) Code-Along (1 hour)
+
+      ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session (1.5 hours)
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Introduction
+
+      ##Kick-Off Script
+
+      Welcome to our Kids Learning Code workshop: Programming with Ruby! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+      How many of you have been to one of our workshops or camps before?
+      (If you get some hands up, ask a few of them what workshops they attended)
+
+      We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 29 cities across Canada and have taught over 19,000 kids how to code!
+
+      Before we get started with our workshop, there are a few things we need to go over:
+
+      * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please go with your parent/guardian or go with another learner.
+      * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it.
+      * <strong>Break/snacks:</strong> We’ll have a break mid-way through when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please eat it out front and clean up any crumbs or wrappers when you’re done.
+
+      ##Intro Slides
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+            <td>Now I want to introduce you all to some important people: our mentors!
+              <br><br><em>Have mentors join you at front of class and get them to say their name and favourite website/game</em>
+              <br><br>The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome website! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+            <td> <em>After selecting the activity, insert the activity title in this slide. </em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help.</li>
+                  <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities</li>
+                  <li><strong>Try your best</strong>:Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</li></td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+            <td><em>Take 2-3 responses</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+            <td><em>e.g. Do the Robot unplugged activity (unplugged activity list)</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/9.jpg" alt="slide"></td>
+            <td>A Program is a set of instructions (code) executed by a computer. We can use Ruby to make games, puzzles, and more!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+            <td> <em>Introduce today’s activity</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+            <td><em>Take 2-3 responses</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+            <td>Q: Who here speaks another language, like French or Arabic?
+              <br><br>
+              Ruby is another language that we learn, but instead of using it to talk to other people, we use it to communicate with computers!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+            <td>Q: Has anyone ever sent a message and had to wait a long time before the other person replied? Not with Ruby! She responds right away. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+            <td>Just like we string letters onto a bracelet.</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+            <td> Ruby also understands numbers with decimals. She knows these as Floats.
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+            <td> In this example, the variable (named “box”) can store either the word (string) ten or the number (integer) 10. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+            <td><em>Try this activity standing up!
+              <br><br>
+              If you have a whiteboard, write:
+              <strong>box = 3</strong>
+              <br><br>
+              Otherwise, verbally define the integer
+              <br><br>Next, write:
+              <strong>box = "blueberry"</strong> (e.g.)
+              <br><br>Go through these tasks as a group</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+            <td>Computers like to communicate in Binary, which is made up of 1’s and 0’s. Usually 1 = True, and 0 = False.
+              <br><br>
+              <em>Example prompts:
+                <br>IF it is raining… ELSE…
+                <br>IF I am hungry… ELSE…
+                <br>IF it is summer… ELSE…</em>
+            </td>
+          </tr>
+        </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Code-Along
+
+      * Go through each step using the slides (after "Let's Get Coding!") while the group follows along.
+      * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this)
+      * For the Guessing Game, go through one list item at a time, and give learners a chance to figure out the code on their own, before asking a volunteer to share their solution with the group.
+      * Have the <a href="https://docs.google.com/document/d/11BLTteUOJkLSPeBCjUgjcNH13h9MiosryJKSN6YE5xg/edit?usp=sharing">Code-Along Challenges</a> handy for mentors to give to learners that are ahead
+      * Remind learners to save often!
+
+      ##Code-Along Slides
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slides</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
+            <td>Time for our Code-Along!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+            <td>We are using repl.it to code in Ruby today. Repl.it is a cloud coding environment, and you can use for coding in many different languages.
+              <br><br>Type in “Ruby” to open the Ruby editor. </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+            <td>Time to begin text messaging with Ruby!
+              <br><br>Enter your code, then click on “Run”
+              <br><br>Whenever you see something with a #hashtag in front of it, you don’t need to type that part. (although it is helpful)
+              <br><br>This is called a comment, which Ruby ignores, but programmers use to organize their code and remember what everything means.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+            <td>Q: Who here is good at math?
+              <br><br>Ruby is really, really good at math! These symbols are called operators (e.g. “+”). We can use them to give Ruby math equations to solve.
+              <br><br>She can help us with our math homework!
+              <br><br><em>Have a volunteer race Ruby to answer a math equation</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+            <td>We can instruct Ruby to ask questions, and then remember the answer that was given!
+              <br><br>Q: What are we doing when we type the word ‘name’?? We are making a variable!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+            <td>Ruby can get confused when we try and use an integer like a string by adding it to a string of text (and vise vera, when we try and do math with words/strings).
+              <br><br>We need to tell Ruby how we want the answer to behave, and how we are going to use it. We need to switch it to an integer before we add 5, and then back to a string before we put it in a sentence. </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+            <td>Ruby will respond with True or False.
+              <br><br>You’ll notice that Ruby response with Nil a lot of the time, as well. Nil just means ‘nothing.’ It means that Ruby is finished completing a task.
+              <br><br>It’s sort of like using walkie talkies and saying “over” every time we finish talking. </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+            <td>Note the difference between = and ==. We use one equal sign to define something, and two equal signs to check if something is the same.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+            <td>Remember these from before? We can add even more options by adding elsif (which combines the words else + if, and goes in between the two).
+              <br><br>We need to write a condition behind IF and ELSIF, but we can leave the space behind ELSE blank, since it represents all other options. </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+            <td>We are going to log in so we can save our next program!
+              <br><br><em>If you want to save your current project, make sure you copy the code before logging in, then paste it in a new project</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+            <td>Q: Are you ready for a challenge??
+              <br><br>We are going to make a guessing game, where the user has to guess a number between 1 and 10.
+              <br><br><em>Display one list item at a time, and give learners a chance to figure out each line of code. Have volunteers share their solutions after 1-2 minutes on each point</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+            <td>Here a possible solution for our Guessing Game program.
+              <br><br>If yours looks slightly different, but still works, that is completely fine!
+              <br><br>Have the person beside you try out your Guessing Game!</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
+            <td>Q: Who here cheated and looked at the number on the left when they guessed? *GASP*
+              <br><br>Let’s take away that option and make Ruby choose for us! We can make Ruby choose a random number between 1 and 10.
+              <br><br><em>Show learners where to change this in their code</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
+            <td>Q: Who is getting tired of clicking “run” every time you want to guess the number?
+              <br><br>We can make the program loop over again for a set amount of rounds (or until the number is guessed)
+              <br><br>This is how a loop works:
+              <br><em>Have a volunteer act this out at the front, or have the entire group stand up and try</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+            <td>Time to add a loop into our Guessing Game!
+              <ol>
+                <li>Put the loop around your current program. </li>
+                <li>Make sure you keep the random number outside of the loop (otherwise it will keep changing every time we loop through!)</li>
+                <li>Add a “break” if the user guesses the answer, in order to stop the loop from repeating.</li>
+                <li>Make Ruby say something when the game is over.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Work Session
+
+      * Select a game or puzzle from the <a href="https://docs.google.com/spreadsheets/d/1tw2aJOtyzZv7ODoQbyrDqRgQzkNWukmalKcCUf9LabI/edit?usp=sharing">activity list</a>. Suggested activity: Choose-Your-Own-Adventure. (be sure to paste the steps and solution into the slides ahead of time)
+      * Get learners started by creating a new project (Click on the repl.it logo, then select “New Session”)
+      * Get the project started code-along style, then leave the STEPS slide up on the screen
+      * Check in with the group every 10-20 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
+      * Remind learners to save often!
+      * Leave time at the end for learners to share their projects with each other. Recommended: Have a Gallery Walk, where learners open the project on their screens, tuck in their chairs, and walk around to see each other's work.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Unplugged Activity (Optional)
+
+      If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Closing Script
+
+      Who can tell me something new they learned today? (<strong>*Refer to slide 39 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+
+      You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+      If you want to learn more about coding, design, and technology, go onto our site kidslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+      Before we go, let’s give our mentors a big hand!
+
+      Thanks and we hope to see you all in another workshop soon!
+    </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Minuterie / barre de progression : indiquez la durée de la présentation en minutes à l'aide de « data-duration ». -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <!--Diapositive 1-->
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Ladies Learning Code logo">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTEZ LES INFORMATIONS DU WI-FI ICI -->
+        <h2>Branchez- <br>vous</h2>
+        <p><strong>Wi-Fi :</strong> réseau wi-fi</p>
+        <p><strong>Mot de passe :</strong> mot de passe du Wi-Fi</p>
+        <hr>
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par Kassandra Lenters pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Utilisez la flèche gauche <span class="arrow">&#8592;</span> ou droite <span class="arrow">&#8594;</span> pour naviguer</p>
+      </footer>
+    </section>
+
+    <!--Diapositive 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Introduction à la programmation en Ruby</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>En collaboration avec<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Diapositives crées par <a href="http://christinatruong.com">Christina Truong</a> pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Utilise la flèche gauche <span class="arrow">&#8592;</span> ou droite <span class="arrow">&#8594;</span> pour naviguer</p>
+      </footer>
+    </section>
+
+    <!--Diapositive 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introduction
+      </script>
+    </section>
+
+    <!--Diapositive 4-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table des matières
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + exemples de projets + invité (10 h)
+
+        Remue-méninges + Maquette (10 h 15)
+
+        Introduction au HTML + CSS (10 h 45)
+
+        Dîner (12 h 30)
+
+        Construction! (13 h 15)
+
+        Démos + publication (15 h 30) -->
+
+       </script>
+    </section>
+
+    <!--Diapositive 5-->
+      <!-- Insérez l'ordre du jour de l'atelier -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Ordre du jour
+
+        Introduction à la programmation
+
+        Programmation en Ruby
+
+        Pause
+
+        Projet Choisis ta propre aventure <!--Insérez le nom de l'activité ici-->
+
+      </script>
+    </section>
+
+    <!--Diapositive 6-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Bannière du code du programmeur](framework/img/workshop/scroll2.png)
+
+         #LE CODE DU PROGRAMMEUR :
+         ## 1. DEMANDE DE L'AIDE  <!-- .element: class="delayed" -->
+         ## 2. SOIS PRÉSENT  <!-- .element: class="delayed" -->
+         ## 3. FAIS DE TON MIEUX!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive 7-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # Qu'est-ce que le code?
+     </script>
+    </section>
+
+    <!--Diapositive 8-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Le code, c'est...
+       ## UN ENSEMBLE DE DIRECTIVES DISANT À L'ORDINATEUR QUOI FAIRE
+
+       ![Robot qui court - gif](framework/img/workshop/runningrobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/dancingrobot.gif)
+       ![Robot qui mange - gif](framework/img/workshop/eatingrobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/dancingrobot2.gif)
+       ![Robot qui danse - gif](framework/img/workshop/bluerobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/partyrobot.gif)
+
+       <p> En programmation, un ensemble de directives s'appelle un <strong style="color:#00a076;">algorithme</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+    <!--Diapositive 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Le projet du jour
+        ## Nous créerons des jeux et des casse-têtes en Ruby
+      </script>
+    </section>
+
+    <!--Diapositive 10-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Projet Choisis ta propre aventure <!--Insérez le nom de l'activité ici-->
+
+          ![http://giphy.com/gifs/happy-celebration-yay-9EVZWCxypKQxi](framework/img/workshop/adventure-time.gif)
+          <!--Changez le gif selon vos besoins-->
+          <br>
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="http://giphy.com/gifs/happy-celebration-yay-9EVZWCxypKQxi">Adventure Time, gif</a>
+            </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 11-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Qu'est-ce que le Ruby?
+      </script>
+    </section>
+
+    <!--Diapositive 12-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Le Ruby est un langage de programmation
+
+        <br>
+        ![https://commons.wikimedia.org/wiki/File:Ruby_logo.svg](framework/img/workshop/ruby-logo.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://commons.wikimedia.org/wiki/File:Ruby_logo.svg">Ruby, image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 13-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #RUBY LE ROBOT
+        * Quand nous programmons en Ruby, c'est comme si nous écrivions des textos à un robot appelé Ruby.
+          * Nous tapons notre code dans l'ENTRÉE, et la réponse de Ruby le robot s'affiche dans la SORTIE.<!-- .element: class="delayed" -->
+          * Nous devons parler à Ruby en employant des mots qu'il comprend.<!-- .element: class="delayed" -->
+        * ![entrée + sortie](framework/img/workshop/texting_fr.png)
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="https://pixabay.com/en/message-chat-communication-symbol-42929/">Bulle, image</a>
+          </div>
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 14-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Les mots
+
+        Ruby appelle des <strong>chaînes</strong> ce que nous appelons des <strong>mots</strong>.
+
+        Il faut mettre ces <strong>chaînes</strong> entre des guillemets anglais ("chaîne"), non pas entre des guillemets français («chaîne»).
+
+        ![beads](framework/img/workshop/beads.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive 15-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Les nombres
+
+        Ruby appelle des <strong>entiers</strong> ce que nous appelons des <strong>nombres</strong>.
+
+        Ce sont des nombres entiers (sans décimales).
+
+        ![http://giphy.com/gifs/count-sings-thecount-YGAQAfXtiLqCs](framework/img/workshop/count.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/count-sings-thecount-YGAQAfXtiLqCs">Sesame Street, gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 16-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Boîte mystère
+
+        Une <strong>variable</strong> est une boîte dans laquelle nous pouvons ranger des informations.
+
+        Les <strong>variables</strong> peuvent accueillir des <strong>chaînes</strong> ou des <strong>entiers</strong>.
+
+        ![variables](framework/img/workshop/variables_fr.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://pixabay.com/en/box-open-cardboard-box-cardboard-152428/">Boîte, image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 17-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercez-vous!
+
+        Remplacez « boîte » par un entier.
+
+        * Sautez boîte fois.<!-- .element: class="delayed" -->
+        * Saluez boîte fois.<!-- .element: class="delayed" -->
+        * Tapez boîte fois.<!-- .element: class="delayed" -->
+
+        Remplacez « boîte » par une chaîne.<!-- .element: class="delayed" -->
+
+        * Dites « Ma saveur de crème glacée préférée est boîte ».<!-- .element: class="delayed" -->
+        * Dites « Dis à boîte que j'ai trouvé la boîte qui n'était pas là la dernière boîte ».<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <!--Diapositive 18-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Les conditions
+
+        Les <strong>conditions</strong> sont soit <strong>vraies</strong> (true) ou <strong>fausses</strong> (false).
+
+        <strong>SI</strong> (if) c'est une journée d'école... <strong>ALORS</strong> (then) se réveiller à 7 h 00.
+
+        <strong>SINON</strong> (else)... continuer à dormir.
+
+        <p style="color:#00a076">Créez vos propres conditions!</p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">SI ... </p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">ALORS ... </p><!-- .element: class="delayed" -->
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 19-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        #ON PROGRAMME!
+      </script>
+    </section>
+
+    <!--Diapositive 20-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Texter avec Ruby
+        ##Allez sur le site <strong><a href="https://repl.it">repl.it</a></strong> et cherchez le mot « ruby ».
+
+        ![ruby editor](framework/img/workshop/replit.png)
+      </script>
+    </section>
+
+    <!--Diapositive 21-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Dites bonjour!
+
+        ```ruby
+        puts "Hello World"  #Pour dire « bonjour » (ceci est un commentaire)
+        ```
+
+        ![éditeur Ruby](framework/img/workshop/textmsg.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive 22-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Pro en maths
+
+        Demandez à Ruby de résoudre des équations mathématiques avec des <strong>opérateurs</strong>!
+
+        ```ruby
+        puts 5 + 10  #Addition
+        puts 5 * 10  #Multiplication
+        puts 10 / 5  #Division
+        puts 10 - 5  #Soustration
+        ```
+
+        ![http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM](framework/img/workshop/calculator.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM">Calculatrice, gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 23-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Poser une question
+
+        Voici comment poser une question à l'utilisateur du programme :
+
+        ```ruby
+        puts "Quel est ton nom?"  #Pour demander le nom de l'utilisateur
+        nom = gets.chomp  #Pour obtenir une réponse de l'utilisateur
+        puts "Bonjour " + nom  #Pour dire « bonjour » à l'utilisateur
+        ```
+
+        ![https://commons.wikimedia.org/wiki/File:Lol_question_mark.png](framework/img/workshop/questionmark.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://commons.wikimedia.org/wiki/File:Lol_question_mark.png">Point d'interrogation, image</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 24-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Chaîne ou entier?
+
+        Il faut indiquer à Ruby le format de la réponse que nous voulons.
+
+        * Si vous voulez que la réponse soit une <strong>chaîne</strong> (« string » en anglais), utilisez ```.to_s```.
+        * Si vous voulez que la réponse soit un <strong>entier</strong> (« integer » en anglais), utilisez ```.to_i```.
+
+
+        ```ruby
+        puts "Quel âge avez-vous?"  #Demander l'âge de l'utilisateur
+        âge = gets.chomp  #Obtenir une réponse de l'utilisateur
+        âge = âge.to_i  #Pour que l'âge soit un entier
+        âge = âge + 5  #Pour ajouter 5 à l'âge
+        âge = âge.to_s  #Pour que l'âge soit une chaîne
+        puts "Voici votre âge dans cinq ans : " + âge
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Opérateurs booléens
+
+        Demandez à Ruby si un élément est VRAI ou FAUX à l'aide de ces opérateurs :
+
+        ```
+        <   plus petit que
+        >   plus grand que
+        <=  plus petit que ou égal à
+        >=  plus grand que ou égal à
+        ==  égal à
+        ```
+
+        Par exemple :
+
+        ```ruby
+        nombre = 5  #Pour définir la valeur « nombre »
+        nombre < 2  #Pour vérifier si « nombre » est plus petit que 2
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 26-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Créer une condition
+
+        Voici comment écrire une expression conditionnelle avec SI (if)&nbsp;:
+
+        ```ruby
+        puts "Quel est ton nom?"  #Pour demander le nom de l'utilisateur
+        nom = gets.chomp.downcase  #Pour prendre la réponse et la mettre en minuscules
+        if nom == "bob"  #Pour créer une condition qui s'activera SI le nom de l'utilisateur est « Bob »
+          puts "HEIN! Moi aussi je m'appelle comme ça!"  #Ce que le programme dira si la condition est satisfaite (VRAIE)
+        end
+        ```
+
+        ![http://giphy.com/gifs/dark-thread-after-lCP95tGSbMmWI](framework/img/workshop/bob.gif)
+
+        * Mais que se passe-t-il si l'utilisateur donne une autre réponse que « Bob »?<!-- .element: class="delayed" -->
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/dark-thread-after-lCP95tGSbMmWI">Minion, gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 27-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Créer une condition
+
+        Il faut penser à TOUT :
+
+        ```ruby
+        if  #Pour créer la condition 1
+          #Ajoutez l'action entraînée par la condition ici
+        else
+          #Ajoutez l'action entraînée par la condition ici
+        end
+        ```
+        OU
+        ```ruby
+        if  #Pour créer la condition 1
+          #Ajoutez l'action entraînée par la condition ici
+        elsif  #Pour créer la condition 2 (« elsif » veut dire « sinon, si »)
+          #Ajoutez l'action entraînée par la condition ici
+        else
+          #Ajoutez l'action entraînée par la condition ici
+        end
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 28-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Se connecter et sauvegarder son projet
+        ##Cliquez sur « Log in » (dans le coin en haut)
+
+        ![repl.it, se connecter](framework/img/workshop/replit-login.png)
+      </script>
+    </section>
+
+    <!--Diapositive 29-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Défi : Devinettes
+
+        * Choisissez un nombre (créez une nouvelle variable).<!-- .element: class="delayed" -->
+        * Demandez à l'utilisateur de deviner le nombre.<!-- .element: class="delayed" -->
+        * Prenez sa réponse.<!-- .element: class="delayed" -->
+        * Changez la réponse en entier.<!-- .element: class="delayed" -->
+        * Créez une expression conditionnelle « SI » (if) au cas où l'utilisateur donnerait une réponse trop basse.<!-- .element: class="delayed" -->
+        * Créez une expression conditionnelle « SINON, SI » (elsif) au cas où l'utilisateur donnerait une réponse trop élevée.<!-- .element: class="delayed" -->
+        * Créez une expression conditionnelle « SINON » (else) au cas où l'utilisateur donnerait la bonne réponse (la seule autre option).<!-- .element: class="delayed" -->
+        * Fermez votre expression conditionnelle SI / SINON.<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <!--Diapositive 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Défi : Devinettes (solution)
+
+        Créez une expression conditionnelle « SI » :
+
+        ```ruby
+        nombre = 3  #Choisissez un nombre.
+        puts "Devinez le chiffre de 1 à 10 auquel je pense."  #Demandez à l'utilisateur de deviner le nombre
+        deviner = gets.chomp  #Prenez sa réponse.
+        deviner = deviner.to_i  #Changez la réponse en entier
+        if deviner < nombre  #Créez une expression conditionnelle « SI » (if) au cas où l'utilisateur donnerait une réponse trop basse.
+	       puts "Trop petit!"
+        elsif deviner < nombre  #Créez une expression conditionnelle « SINON, SI » (elsif) au cas où l'utilisateur donnerait une réponse trop élevée.
+	       puts "Trop élevé!"
+        else  #Créez une expression conditionnelle « SINON » (else) au cas où l'utilisateur donnerait la bonne réponse (la seule autre option)
+	       puts "Parfait."
+        end
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 31-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Défi : Devinettes (nombre aléatoire)
+
+        Remplacez la définition de votre variable « nombre » par celle-ci :
+
+        ```ruby
+        nombre = rand(1..10)
+        ```
+        Grâce à elle, votre variable sera un nombre aléatoire de 1 à 10.
+
+        ![http://tsaoshin.deviantart.com/art/Part-of-Your-No-388260981](framework/img/workshop/random.png)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://tsaoshin.deviantart.com/art/Part-of-Your-No-388260981">« Part of Your No » par TsaoShin</a>
+        </div>
+
+        </script>
+      </section>
+
+      <!--Diapositive 32-->
+      <section class="slide" data-markdown>
+        <script type="text/template">
+        # Défi : Devinettes (boucle)
+        ##Par exemple...
+        ```ruby
+        5.times do  #Répéter le programme 5 fois à l'aide d'une boucle (« times »). « times » signifie « fois » en anglais.
+
+
+          *LES MAINS DANS LES AIRS*
+
+
+        end  #Pour fermer la boucle
+        puts "Mamaaaan, c'est fiiiiniiiiii!"
+        ```
+
+        </script>
+      </section>
+
+      <!--Diapositive 33-->
+      <section class="slide" data-markdown>
+        <script type="text/template">
+        # Défi : Devinettes (boucle)
+
+        ```ruby
+        nombre = rand(1..10)  #Laissez cet élément en haut
+
+        10.times do  #Répéter le programme 10 fois
+
+          puts "Devinez le nombre de 1 à 10 auquel je pense."
+          deviner = gets.chomp
+          deviner = deviner.to_i
+          if deviner < nombre
+            puts "Trop bas!"
+          elsif deviner > nombre
+            puts "Trop élevé!"
+          else
+            puts "Parfait."
+            break  #Ferme la boucle au moment où la bonne réponse est donnée
+          end
+
+        end  #Ferme la boucle
+        puts "C'est fini."  #Pour dire à l'utilisateur que le jeu est fini
+        ```
+
+        </script>
+      </section>
+
+      <!--Diapositive 34-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #PROJET PRINCIPAL
+      </script>
+    </section>
+
+    <!--Diapositive 35-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Choisis ta propre aventure <!--Insérez le titre du projet ici-->
+        ##Créez une histoire interactive dans laquelle l'utilisateur prendra des décisions qui affecteront le déroulement de l'histoire.
+        <!--Remplacez la description de l'activité, au besoin.-->
+
+        ![carte conceptuelle](framework/img/workshop/mindmap_fr.jpg)<!--Remplacez l'image au besoin-->
+
+      </script>
+    </section>
+
+    <!--Diapositive 36-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Choisis ta propre aventure <!--Insérez le titre du projet ici-->
+        ÉTAPES :<!--insérez les étapes ci-dessous-->
+
+        * Commencez votre histoire! Écrivez ```puts "Chaîne"``` (ajoutez une pause avec ```sleep 2```).
+        * Posez une question à deux options, A ou B.
+        * Obtenez une réponse.
+        * Créez une expression conditionnelle SI / SI ALORS (si, elseif) :
+          * ```if choix == "A"``` ou ```if choix.include? "A"```
+          * Faites survenir un événement si l'utilisateur choisit A.
+          * Créez une condition ```elsif``` au cas où l'utilisateur choisit B.
+          * Faites survenir un événement si l'utilisateur choisit B.
+        * Sous chaque condition, posez une autre question et répétez les étapes ci-dessus!
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 37-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Solution possible
+
+        Exemple : <a href="https://repl.it/HQrV/0">https://repl.it/HQrV/0</a>
+        <!--Lien vers une solution possible ci-dessus. Il s'agit d'une version française créée pour cet atelier!-->
+      </script>
+    </section>
+
+    <!--Diapositive 38-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DÉMOS
+      </script>
+    </section>
+
+    <main>
+      <!--Diapositive 39-->
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Aujourd'hui, j'ai appris que...
+
+          <p><strong>Je peux</strong> créer des algorithmes en Ruby.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser des variables pour enregistrer des informations.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser des expressions conditionnelles avec « si » pour déterminer des événements dans mon programme.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser des boucles pour répéter des actions au moins une fois.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser le Ruby et CONTINUER À PROGRMAMER!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span> Introduction à la programmation<br> en Ruby</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Diapositives crées par <a href="http://christinatruong.com">Christina Truong</a> partir de <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
