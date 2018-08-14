@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : indiquez la durée de la présentation en minutes à l'aide de « data-duration ». -->
+<body class="en" data-duration="360">
+
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Guide pour les formateurs
+
+        ##Kids Learning Code : Programmation en Ruby
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Présentation du Ruby</a>
+        ###<a href="#slide3" target="_self">Ordre du jour</a>
+        ###<a href="#slide4" target="_self">Introduction</a>
+        ###<a href="#slide5" target="_self">Programmation en groupe</a>
+        ###<a href="#slide6" target="_self">Séance de programmation</a>
+        ###<a href="#slide7" target="_self">Activité hors ligne (facultative)</a>
+        ###<a href="#slide8" target="_self">Conclusion</a>
+
+        <br>
+        #Présentation du Ruby
+
+        Le <a href="https://www.ruby-lang.org/en/">Ruby</a> est un langage de programmation libre aux usages multiples comme résoudre une équation mathématique simple ou créer un jeu interactif. Dans le cadre de cet atelier, nous utiliserons <a href="https://repl.it/languages/ruby">repl.it</a>, un environnement de programmation gratuit entièrement en ligne qui nous permettra de créer des programmes. Voici quelques ressources pour s'initier au Ruby (en anglais) :
+
+
+        * <a href="http://tryruby.org/levels/1">Tutoriel de Ruby pour les débutants</a>
+        * <a href="http://ruby-for-beginners.rubymonstas.org/">Guide Rubymonstas</a> (consultez les sections Variables, Built-In Data Types (types de données intégrés) et Conditionals (expressions conditionnelles))
+        * <a href="https://repl.it/help">Raccourcis de Repl.it</a>
+
+
+        <br>
+        #Ordre du jour
+
+        ![icône d'intro](framework/img/workshop/intro-icon2.png) Introduction (30 minutes)
+
+        ![icône de code](framework/img/workshop/code-icon2.png) Programmation en groupe (1 heure)
+
+        ![icône d'ordinateur](framework/img/workshop/laptop-icon2.png) Séance de programmation (1,5 heure)
+
+
+        <br>
+        #Introduction
+
+        ##Script d'ouverture
+
+        Bienvenue à l'atelier de Kids Learning Code « Programmation en Ruby »! Nous sommes contents que vous soyez là et nous espérons que vous êtes prêts à apprendre beaucoup de choses.
+
+        Y a-t-il des gens ayant déjà assisté à l'un de nos ateliers ou participé à l'un de nos camps? (Si certains apprenants lèvent la main, demandez-leur quels sont les ateliers auxquels ils ont participé.)
+
+        Nous avons commencé à organiser des ateliers et des camps pour les filles dans le cadre du programme Girls Learning Code en 2012. À la demande de parents ayant des garçons, nous avons démarré Kids Learning Code en 2013. Depuis, nous sommes présents dans plus de 29 villes du Canada et avons enseigné la programmation à plus de 19 000 enfants!
+
+        Avant de commencer l'atelier, voici quelques points à aborder :
+
+        * <strong>Salle de bain :</strong> Qui sait où sont les toilettes? (Demandez aux apprenants de préciser leur emplacement.) Si vous avez besoin d'aller aux toilettes, amenez un partenaire avec vous.
+        * <strong>Boire de l'eau :</strong> Si vous avez amené une bouteille d'eau, vous pouvez la garder sur votre bureau, mais assurez-vous de garder le couvercle fermé. Si vous n'avez pas de bouteille d'eau, les mentors peuvent aller chercher un verre d'eau pour vous plus tard à condition que vous gardiez le verre loin des ordinateurs.
+        * <strong>Pause / collation :</strong> Nous prendrons une pause de 10 minutes pour manger une collation ou nous dégourdir les jambes. Si vous avez une collation (sans arachides), mangez-la à l'avant de la classe, puis nettoyez les miettes et jetez l'emballage quand vous avez terminé.
+
+
+        ##Diapositives d'introduction
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+              <td> J’aimerais vous présenter des gens très importants : nos mentors!
+                <br><em>Demandez aux mentors de vous rejoindre à l'avant de la classe afin qu’ils puissent se présenter en disant leur nom et leur site / jeu préféré.</em>
+                <br><br>
+                Les mentors sont là pour vous aider si vous rencontrez des problèmes. N’hésitez pas à leur poser des questions si vous êtes mal pris ou si vous souhaitez leur montrer votre super projet!
+              </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/5.jpg" alt="slide"></td>
+              <td> <em>Après avoir choisi votre activité hors ligne et votre projet Scratch, ajoutez-les à cette diapositive. </em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/6.jpg" alt="slide"></td>
+              <td>
+                <ol>
+                    <li><strong>Demandez de l'aide</strong> : Si vous rencontrez des difficultés, travaillez avec votre voisin ou levez la main pour demander à l'enseignant ou à un mentor de venir vous aider.</li>
+                    <li><strong>Soyez présents</strong> : Nous voulons que vous appreniez beaucoup de nouvelles choses pendant l’atelier. Assurez-vous de bien écouter et de suivre pendant les activités.</li>
+                    <li><strong>Faites de votre mieux</strong> : Même les meilleurs programmeurs rencontrent des problèmes. Nous ne nous attendons pas à ce que vous réussissiez tout du premier coup, mais à ce que vous fassiez de votre mieux. N’ayez pas peur d'essayer des choses et de faire des erreurs!</li></td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/7.jpg" alt="slide"></td>
+              <td><em>Prenez 2 ou 3 réponses.</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/8.jpg" alt="slide"></td>
+              <td><em>p. ex. : faites l'activité hors ligne du robot.</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/9.jpg" alt="slide"></td>
+              <td>Un programme est un ensemble de directives exécutées par un ordinateur. Le Ruby nous permet de créer des jeux, des casse-têtes et plus encore!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/10.jpg" alt="slide"></td>
+              <td> <em>Présentez l’activité du jour.</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/11.jpg" alt="slide"></td>
+              <td><em>Prenez 2 ou 3 réponses.</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/12.jpg" alt="slide"></td>
+              <td>Q : Qui parle une autre langue comme l’espagnol ou l’arabe?
+                <br><br>
+                Le Ruby est une langue, mais plutôt que de servir à parler à d’autres personnes, elle sert à  communiquer avec les ordinateurs.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/13.jpg" alt="slide"></td>
+              <td>Q : Vous est-il déjà arrivé d’écrire un message à quelqu’un et d’attendre très longtemps avant d’avoir une réponse? Ruby, lui, ne fait pas ça. Il répond tout de suite!</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/14.jpg" alt="slide"></td>
+              <td>Comme quand nous enfilons des billes pour faire des bracelets.</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/15.jpg" alt="slide"></td>
+              <td> Ruby comprend aussi les nombres avec des décimales. Il les appelle des nombres flottants.
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/16.jpg" alt="slide"></td>
+              <td> Dans cet exemple, la variable (« boîte ») contient soit le mot (la chaîne) « dix » ou le nombre (l’entier) « 10 ».</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/17.jpg" alt="slide"></td>
+              <td><em>Levez-vous et faites les étapes de cette activité en groupe!
+                <br><br>
+                Si vous avez un tableau blanc, écrivez-y :
+                <strong>boîte = 3</strong>
+                <br><br>
+                Sinon, définissez l’entier à l’oral.
+                <br><br>Ensuite, écrivez :
+                <strong>boîte = "bleuet"</strong> (exemple)</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/18.jpg" alt="slide"></td>
+              <td>Les ordinateurs communiquent en binaire, qui est composé de « 1 » et de « 0 ». Habituellement, 1 = vrai, 0 = faux.
+                <br><br>
+                <em>Exemples de conditions :
+                  <br>S’IL pleut… SINON…
+                  <br>SI j’ai faim… SINON…
+                  <br>SI c’est l’été… SINON…</em>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+        #Programmation en groupe
+
+        * Faites chaque étape à l'aide des diapositives (après « On programme! ») et demandez au groupe de faire l'activité en même temps que vous.
+        * S'il y a un tableau blanc, écrivez-y les fonctions principales afin que les apprenants puissent s'y référer pendant la programmation individuelle. (Vous pouvez aussi demander à un mentor de s'en occuper.)
+        * Pendant le jeu de devinettes, passez chaque élément de la liste un à un et donnez l'occasion aux apprenants de comprendre le code eux-mêmes avant de demander à quelqu'un de partager sa solution avec le groupe.
+        * Ayez les <a href="https://docs.google.com/document/d/1JJs2VNH_dpRRqCIF-ODul1kMw95HIRNTU_R7BTpMAqg/edit?usp=sharing">défis de programmation en groupe</a> sous la main afin que les mentors puissent les proposer aux apprenants avancés.
+        * Rappelez aux apprenants de sauvegarder leur projet souvent!
+
+        ##Diapositives de l'activité de programmation en groupe
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/19.jpg" alt="slide"></td>
+              <td> Le temps est venu de programmer tous ensemble! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/20.jpg" alt="slide"></td>
+              <td>Aujourd’hui, nous utiliserons l’environnement de programmation en ligne repl.it pour programmer en Ruby. Vous pouvez aussi l’utiliser pour programmer en plusieurs autres langages de programmation.
+                <br><br>Tapez « Ruby » dans la barre de recherche pour ouvrir l’éditeur Ruby.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/21.jpg" alt="slide"></td>
+              <td>Nous allons envoyer des textos à Ruby! Entrez votre code et cliquez sur « Run ».
+              <br><br>Chaque fois que vous voyez une ligne avec un #, vous n’avez pas à l’écrire dans l’éditeur. <em>Même si elle aide beaucoup.</em>
+              <br><br>Il s’agit d’un commentaire que les programmeurs utilisent pour organiser leur code et se souvenir du sens des éléments. De son côté, Ruby n’exécute pas les commentaires.
+              </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/22.jpg" alt="slide"></td>
+              <td>Q : Qui ici est bon en maths?
+                <br><br>Ruby est super bon en maths! Les symboles (p. ex. : + ) s’appellent des opérateurs. Ils servent à donner des équations à résoudre à Ruby.
+                <br><br>Il peut nous aider à faire nos devoirs de maths!
+                <br><br><em>Demandez à un volontaire d’essayer de répondre à une équation avant Ruby.</em></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/23.jpg" alt="slide"></td>
+              <td>Nous pouvons demander à Ruby de poser des questions à l’utilisateur du programme et de se souvenir des réponses!
+                <br><br>Q : Que faisons-nous quand nous tapons le mot « nom »? Nous créons une variable!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/24.jpg" alt="slide"></td>
+              <td>Parfois, Ruby ne comprend pas ce que nous voulons faire quand nous utilisons des entiers comme s’ils étaient des chaînes. Par exemple, en ajoutant un entier dans une chaîne ou en faisant l’inverse quand nous faisons des maths avec des chaînes.
+                <br><br>Nous devons dire à Ruby quel est le format de la réponse (chaîne ou entier) et comment nous nous en servirons. Par exemple, nous devons changer la réponse en entier avant d’ajouter 5 et la changer en chaîne avant d’ajouter la réponse dans une phrase.
+              </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/25.jpg" alt="slide"></td>
+              <td>Ruby répondra avec « vrai » (true) ou « faux » (false).
+                <br><br>Vous remarquerez que Ruby répond souvent par « nil ». « Nil » veut dire « nul » et indique que Ruby a fini sa tâche.
+                <br><br>C’est l’équivalent de dire « 10-4 » chaque fois que nous avons fini de parler.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/26.jpg" alt="slide"></td>
+              <td>Retenez bien la différence entre = et ==. Le symbole = (1 symbole « égal ») sert à définir quelque chose, tandis que == (2 symboles « égal »)  vérifie si les deux éléments sont identiques.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/27.jpg" alt="slide"></td>
+              <td>Vous rappelez-vous des conditions? Nous pouvons proposer encore plus d’options en ajoutant « SINON, SI » (elsif). Il s’agit d’un mélange de « SINON » et de « SI » qui se place entre les deux conditions.
+                <br><br>Nous devons écrire une condition pour « IF » et « ELSIF », mais nous n’avons pas besoin d’écrire de condition particulière pour « ELSE », car il regroupe toutes les autres conditions que nous n’avons pas déjà indiquées.
+                </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides-fr/28.jpg" alt="slide"></td>
+              <td>Nous allons nous connecter pour enregistrer notre prochain programme!
+                <br><br><em>Si vous souhaitez enregistrer votre programme actuel, assurez-vous de copier le code avant de vous connecter et de le copier dans un nouveau projet par la suite.</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/29.jpg" alt="slide"></td>
+              <td>Q : Êtes-vous prêts à relever un défi? Nous allons créer un jeu de devinettes où l’utilisateur devra trouver un nombre entre 1 et 10.
+                <br><br><em>Affichez un élément de la liste à la fois et donnez aux apprenants le temps de bien comprendre chaque ligne de code. Après 1 ou 2 minutes, demandez à des volontaires de partager leurs solutions pour chaque étape.</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/30.jpg" alt="slide"></td>
+              <td>Voici une solution possible pour le jeu de devinettes.
+                <br><br>Si votre jeu est un peu différent, mais qu’il fonctionne bien, c’est parfait!
+                <br><br>Demandez aux apprenants d’essayer le jeu de devinettes de leur voisin. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/31.jpg" alt="slide"></td>
+              <td> Q : Qui a triché et a regardé à gauche avant d’essayer à deviner le nombre?
+                <br><br>Pour vous empêcher de faire cela, demandons à Ruby de choisir un nombre au hasard pour nous! En écrivant ce code, il choisira un nombre aléatoire de 1 à 10.
+                <br><br><em>Montrez aux apprenants l’endroit où mettre ce code.</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/32.jpg" alt="slide"></td>
+              <td>Q : Qui n’aime pas toujours devoir cliquer sur « Run » pour deviner un nombre?
+                <br><br>Nous pouvons forcer le programme à se répéter un certain nombre de fois ou jusqu’à ce que la bonne réponse soit donnée.
+                <br><br>Voici comment fonctionne une boucle :
+                <br><em>Demandez à un volontaire de réaliser l’exercice à l’avant ou demandez à tout le monde de se lever et de le faire ensemble.</em></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides-fr/33.jpg" alt="slide"></td>
+              <td>Maintenant, ajoutons une boucle à notre jeu de devinettes!
+                <ol>
+                  <li>Entourez votre programme avec la boucle.</li>
+                  <li>Assurez-vous que le nombre aléatoire se trouve à l’extérieur de la boucle, sinon, celui-ci changera constamment!</li>
+                  <li>Ajoutez une pause (« break ») pour fermer la boucle au cas où l’utilisateur donnerait la bonne réponse.</li>
+                  <li>Demandez à Ruby de dire quelque chose à la fin du jeu.</li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+        #Séance de programmation
+
+        * Choisissez un jeu ou un casse-tête de la <a href="http://bit.ly/liste-d-activités-ruby">liste d'activités</a>. Activité recommandée : Choisis ta propre aventure. (N'oubliez pas de faire un copier-coller des étapes et du corrigé dans les diapositives avant l'atelier.)
+        * Aidez les apprenants à bien démarrer en créant un nouveau projet vous-même. (Cliquez sur le logo de repl.it et sélectionnez « New Session».)
+        * Commencez le projet en groupe puis laissez les apprenants continuer individuellement en affichant à l'écran la diapositive comprenant les étapes.
+        * Prenez le pouls du groupe toutes les 10 à 20 minutes et répondez aux questions. Demandez aux apprenants de présenter leurs solutions aux questions, s'il y a lieu.
+        * Rappelez aux apprenants de sauvegarder leur projet souvent!
+        * Accordez du temps aux apprenants pour essayer et partager leurs projets entre eux à la fin de l'atelier. Suggestion : Faites un « vernissage ». Les apprenants laisseront leurs projets ouverts sur leur écran, rangeront leur chaise et marcheront autour de la classe pour voir les projets de tout le monde.
+
+
+        <br>
+        #Activité hors ligne (facultative)
+
+        Si les apprenants ont besoin de prendre une pause, accordez-leur 10 minutes que ce soit pour aller à la salle de bains, boire de l'eau ou manger une collation. Vous avez aussi le choix de faire une activité hors ligne au milieu de l'atelier pour leur permettre de se dégourdir les jambes. Ces activités prennent environ 10 minutes, et vous pouvez en choisir une parmi la <a href="http://bit.ly/activités-hors-ligne-doc">liste d'activités</a>. Activité recommandée : Le robot.
+
+
+        <br>
+        #Script de fermeture
+
+        Qui peut me nommer une chose qu'il a apprise aujourd'hui? (<strong>Consultez la diapositive n°39 pour avoir des exemples</strong>. Si personne ne lève la main, vous pouvez demander à un apprenant qui était particulièrement engagé pendant l'atelier de dire un mot ou vous pouvez repasser certaines notions clés de l'atelier.)
+
+        Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnés par vos projets!
+
+        Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site kidslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+        Avant de partir, applaudissons chaleureusement nos mentors!
+
+        Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+       </script>
+    </section>
+
+<!--Diapositives supplémentaires accessibles par la table des matières-->
+
+<section class="slide" data-toc data-markdown>
+  <script type="text/template">
+    #Présentation du Ruby
+
+    Le <a href="https://www.ruby-lang.org/en/">Ruby</a> est un langage de programmation libre aux usages multiples comme résoudre une équation mathématique simple ou créer un jeu interactif. Dans le cadre de cet atelier, nous utiliserons <a href="https://repl.it/languages/ruby">repl.it</a>, un environnement de programmation gratuit entièrement en ligne qui nous permettra de créer des programmes. Voici quelques ressources pour s'initier au Ruby (en anglais) :
+
+    * <a href="http://tryruby.org/levels/1">Tutoriel de Ruby pour les débutants</a>
+    * <a href="http://ruby-for-beginners.rubymonstas.org/">Guide Rubymonstas</a> (consultez les sections Variables, Built-In Data Types (types de données intégrés) et Conditionals (expressions conditionnelles))
+    * <a href="https://repl.it/help">Raccourcis de Repl.it</a>
+  </script>
+</section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Ordre du jour
+
+      ![icône d'intro](framework/img/workshop/intro-icon2.png) Introduction (30 minutes)
+
+      ![icône de code](framework/img/workshop/code-icon2.png) Programmation en groupe (1 heure)
+
+      ![icône d'ordinateur](framework/img/workshop/laptop-icon2.png) Séance de programmation (1,5 heure)
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Introduction
+
+      ##Script d'ouverture
+
+      Bienvenue à l'atelier de Kids Learning Code « Programmation en Ruby »! Nous sommes contents que vous soyez là et nous espérons que vous êtes prêts à apprendre beaucoup de choses.
+
+      Y a-t-il des gens ayant déjà assisté à l'un de nos ateliers ou participé à l'un de nos camps? (Si certains apprenants lèvent la main, demandez-leur quels sont les ateliers auxquels ils ont participé.)
+
+      Nous avons commencé à organiser des ateliers et des camps pour les filles dans le cadre du programme Girls Learning Code en 2012. À la demande de parents ayant des garçons, nous avons démarré Kids Learning Code en 2013. Depuis, nous sommes présents dans plus de 29 villes du Canada et avons enseigné la programmation à plus de 19 000 enfants!
+
+      Avant de commencer l'atelier, voici quelques points à aborder :
+
+      * <strong>Salle de bains :</strong> Qui sait où sont les toilettes? (Demandez aux apprenants de préciser leur emplacement.) Si vous avez besoin d'aller aux toilettes, amenez un partenaire avec vous.
+      * <strong>Boire de l'eau :</strong> Si vous avez amené une bouteille d'eau, vous pouvez la garder sur votre bureau, mais assurez-vous de garder le couvercle fermé. Si vous n'avez pas de bouteille d'eau, les mentors peuvent aller chercher un verre d'eau pour vous plus tard à condition que vous gardiez le verre loin des ordinateurs.
+      * <strong>Pause / collation :</strong> Nous prendrons une pause de 10 minutes pour manger une collation ou nous dégourdir les jambes. Si vous avez une collation (sans arachides), mangez-la à l'avant de la classe, puis nettoyez les miettes et jetez l'emballage quand vous avez terminé.
+
+      ##Diapositives d'introduction
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+            <td> J’aimerais vous présenter des gens très importants : nos mentors!
+              <br><em>Demandez aux mentors de vous rejoindre à l'avant de la classe afin qu’ils puissent se présenter en disant leur nom et leur site / jeu préféré.</em>
+              <br><br>
+              Les mentors sont là pour vous aider si vous rencontrez des problèmes. N’hésitez pas à leur poser des questions si vous êtes mal pris ou si vous souhaitez leur montrer votre super projet!
+            </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/5.jpg" alt="slide"></td>
+            <td> <em>Après avoir choisi votre activité hors ligne et votre projet Scratch, ajoutez-les à cette diapositive. </em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/6.jpg" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Demandez de l'aide</strong> : Si vous rencontrez des difficultés, travaillez avec votre voisin ou levez la main pour demander à l'enseignant ou à un mentor de venir vous aider.</li>
+                  <li><strong>Soyez présents</strong> : Nous voulons que vous appreniez beaucoup de nouvelles choses pendant l’atelier. Assurez-vous de bien écouter et de suivre pendant les activités.</li>
+                  <li><strong>Faites de votre mieux</strong> : Même les meilleurs programmeurs rencontrent des problèmes. Nous ne nous attendons pas à ce que vous réussissiez tout du premier coup, mais à ce que vous fassiez de votre mieux. N’ayez pas peur d'essayer des choses et de faire des erreurs!</li></td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/7.jpg" alt="slide"></td>
+            <td><em>Prenez 2 ou 3 réponses.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/8.jpg" alt="slide"></td>
+            <td><em>p. ex. : faites l'activité hors ligne du robot.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/9.jpg" alt="slide"></td>
+            <td>Un programme est un ensemble de directives exécutées par un ordinateur. Le Ruby nous permet de créer des jeux, des casse-têtes et plus encore!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/10.jpg" alt="slide"></td>
+            <td> <em>Présentez l’activité du jour.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/11.jpg" alt="slide"></td>
+            <td><em>Prenez 2 ou 3 réponses.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/12.jpg" alt="slide"></td>
+            <td>Q : Qui parle une autre langue comme l’espagnol ou l’arabe?
+              <br><br>
+              Le Ruby est une langue, mais plutôt que de servir à parler à d’autres personnes, elle sert à  communiquer avec les ordinateurs.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/13.jpg" alt="slide"></td>
+            <td>Q : Vous est-il déjà arrivé d’écrire un message à quelqu’un et d’attendre très longtemps avant d’avoir une réponse? Ruby, lui, ne fait pas ça. Il répond tout de suite!</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/14.jpg" alt="slide"></td>
+            <td>Comme quand nous enfilons des billes pour faire des bracelets.</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/15.jpg" alt="slide"></td>
+            <td> Ruby comprend aussi les nombres avec des décimales. Il les appelle des nombres flottants.
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/16.jpg" alt="slide"></td>
+            <td> Dans cet exemple, la variable (« boîte ») contient soit le mot (la chaîne) « dix » ou le nombre (l’entier) « 10 ».</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/17.jpg" alt="slide"></td>
+            <td><em>Levez-vous et faites les étapes de cette activité en groupe!
+              <br><br>
+              Si vous avez un tableau blanc, écrivez-y :
+              <strong>boîte = 3</strong>
+              <br><br>
+              Sinon, définissez l’entier à l’oral.
+              <br><br>Ensuite, écrivez :
+              <strong>boîte = "bleuet"</strong> (exemple)</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/18.jpg" alt="slide"></td>
+            <td>Les ordinateurs communiquent en binaire, qui est composé de « 1 » et de « 0 ». Habituellement, 1 = vrai, 0 = faux.
+              <br><br>
+              <em>Exemples de conditions :
+                <br>S’IL pleut… SINON…
+                <br>SI j’ai faim… SINON…
+                <br>SI c’est l’été… SINON…</em>
+            </td>
+          </tr>
+        </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Programmation en groupe
+
+      * Faites chaque étape à l'aide des diapositives (après « On programme! ») et demandez au groupe de faire l'activité en même temps que vous.
+      * S'il y a un tableau blanc, écrivez-y les fonctions principales afin que les apprenants puissent s'y référer pendant la programmation individuelle. (Vous pouvez aussi demander à un mentor de s'en occuper.)
+      * Pendant le jeu de devinettes, passez chaque élément de la liste un à un et donnez l'occasion aux apprenants de comprendre le code eux-mêmes avant de demander à quelqu'un de partager sa solution avec le groupe.
+      * Ayez les <a href="https://docs.google.com/document/d/1JJs2VNH_dpRRqCIF-ODul1kMw95HIRNTU_R7BTpMAqg/edit?usp=sharing">défis de programmation en groupe</a> sous la main afin que les mentors puissent les proposer aux apprenants avancés.
+      * Rappelez aux apprenants de sauvegarder leur projet souvent!
+
+      ##Diapositives de l'activité de programmation en groupe
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/19.jpg" alt="slide"></td>
+            <td> Le temps est venu de programmer tous ensemble! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/20.jpg" alt="slide"></td>
+            <td>Aujourd’hui, nous utiliserons l’environnement de programmation en ligne repl.it pour programmer en Ruby. Vous pouvez aussi l’utiliser pour programmer en plusieurs autres langages de programmation.
+              <br><br>Tapez « Ruby » dans la barre de recherche pour ouvrir l’éditeur Ruby.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/21.jpg" alt="slide"></td>
+            <td>Nous allons envoyer des textos à Ruby! Entrez votre code et cliquez sur « Run ».
+            <br><br>Chaque fois que vous voyez une ligne avec un #, vous n’avez pas à l’écrire dans l’éditeur. <em>Même si elle aide beaucoup.</em>
+            <br><br>Il s’agit d’un commentaire que les programmeurs utilisent pour organiser leur code et se souvenir du sens des éléments. De son côté, Ruby n’exécute pas les commentaires.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/22.jpg" alt="slide"></td>
+            <td>Q : Qui ici est bon en maths?
+              <br><br>Ruby est super bon en maths! Les symboles (p. ex. : + ) s’appellent des opérateurs. Ils servent à donner des équations à résoudre à Ruby.
+              <br><br>Il peut nous aider à faire nos devoirs de maths!
+              <br><br><em>Demandez à un volontaire d’essayer de répondre à une équation avant Ruby.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/23.jpg" alt="slide"></td>
+            <td>Nous pouvons demander à Ruby de poser des questions à l’utilisateur du programme et de se souvenir des réponses!
+              <br><br>Q : Que faisons-nous quand nous tapons le mot « nom »? Nous créons une variable!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/24.jpg" alt="slide"></td>
+            <td>Parfois, Ruby ne comprend pas ce que nous voulons faire quand nous utilisons des entiers comme s’ils étaient des chaînes. Par exemple, en ajoutant un entier dans une chaîne ou en faisant l’inverse quand nous faisons des maths avec des chaînes.
+              <br><br>Nous devons dire à Ruby quel est le format de la réponse (chaîne ou entier) et comment nous nous en servirons. Par exemple, nous devons changer la réponse en entier avant d’ajouter 5 et la changer en chaîne avant d’ajouter la réponse dans une phrase.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/25.jpg" alt="slide"></td>
+            <td>Ruby répondra avec « vrai » (true) ou « faux » (false).
+              <br><br>Vous remarquerez que Ruby répond souvent par « nil ». « Nil » veut dire « nul » et indique que Ruby a fini sa tâche.
+              <br><br>C’est l’équivalent de dire « 10-4 » chaque fois que nous avons fini de parler.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/26.jpg" alt="slide"></td>
+            <td>Retenez bien la différence entre = et ==. Le symbole = (1 symbole « égal ») sert à définir quelque chose, tandis que == (2 symboles « égal »)  vérifie si les deux éléments sont identiques.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/27.jpg" alt="slide"></td>
+            <td>Vous rappelez-vous des conditions? Nous pouvons proposer encore plus d’options en ajoutant « SINON, SI » (elsif). Il s’agit d’un mélange de « SINON » et de « SI » qui se place entre les deux conditions.
+              <br><br>Nous devons écrire une condition pour « IF » et « ELSIF », mais nous n’avons pas besoin d’écrire de condition particulière pour « ELSE », car il regroupe toutes les autres conditions que nous n’avons pas déjà indiquées.
+              </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/28.jpg" alt="slide"></td>
+            <td>Nous allons nous connecter pour enregistrer notre prochain programme!
+              <br><br><em>Si vous souhaitez enregistrer votre programme actuel, assurez-vous de copier le code avant de vous connecter et de le copier dans un nouveau projet par la suite.</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/29.jpg" alt="slide"></td>
+            <td>Q : Êtes-vous prêts à relever un défi? Nous allons créer un jeu de devinettes où l’utilisateur devra trouver un nombre entre 1 et 10.
+              <br><br><em>Affichez un élément de la liste à la fois et donnez aux apprenants le temps de bien comprendre chaque ligne de code. Après 1 ou 2 minutes, demandez à des volontaires de partager leurs solutions pour chaque étape.</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/30.jpg" alt="slide"></td>
+            <td>Voici une solution possible pour le jeu de devinettes.
+              <br><br>Si votre jeu est un peu différent, mais qu’il fonctionne bien, c’est parfait!
+              <br><br>Demandez aux apprenants d’essayer le jeu de devinettes de leur voisin. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/31.jpg" alt="slide"></td>
+            <td> Q : Qui a triché et a regardé à gauche avant d’essayer à deviner le nombre?
+              <br><br>Pour vous empêcher de faire cela, demandons à Ruby de choisir un nombre au hasard pour nous! En écrivant ce code, il choisira un nombre aléatoire de 1 à 10.
+              <br><br><em>Montrez aux apprenants l’endroit où mettre ce code.</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/32.jpg" alt="slide"></td>
+            <td>Q : Qui n’aime pas toujours devoir cliquer sur « Run » pour deviner un nombre?
+              <br><br>Nous pouvons forcer le programme à se répéter un certain nombre de fois ou jusqu’à ce que la bonne réponse soit donnée.
+              <br><br>Voici comment fonctionne une boucle :
+              <br><em>Demandez à un volontaire de réaliser l’exercice à l’avant ou demandez à tout le monde de se lever et de le faire ensemble.</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/33.jpg" alt="slide"></td>
+            <td>Maintenant, ajoutons une boucle à notre jeu de devinettes!
+              <ol>
+                <li>Entourez votre programme avec la boucle.</li>
+                <li>Assurez-vous que le nombre aléatoire se trouve à l’extérieur de la boucle, sinon, celui-ci changera constamment!</li>
+                <li>Ajoutez une pause (« break ») pour fermer la boucle au cas où l’utilisateur donnerait la bonne réponse.</li>
+                <li>Demandez à Ruby de dire quelque chose à la fin du jeu.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Séance de programmation
+
+      * Choisissez un jeu ou un casse-tête de la <a href="http://bit.ly/liste-d-activités-ruby">liste d'activités</a>. Activité recommandée : Choisis ta propre aventure. (N'oubliez pas de faire un copier-coller des étapes et du corrigé dans les diapositives avant l'atelier.)
+      * Aidez les apprenants à bien démarrer en créant un nouveau projet vous-même. (Cliquez sur le logo de repl.it et sélectionnez « New Session».)
+      * Commencez le projet en groupe puis laissez les apprenants continuer individuellement en affichant à l'écran la diapositive comprenant les étapes.
+      * Prenez le pouls du groupe toutes les 10 à 20 minutes et répondez aux questions. Demandez aux apprenants de présenter leurs solutions aux questions, s'il y a lieu.
+      * Rappelez aux apprenants de sauvegarder leur projet souvent!
+      * Accordez du temps afin que les apprenants puissent mettre à l'essai leurs projets et les partager à la fin de l'atelier. Suggestion : Faites un « vernissage ». Les apprenants laisseront leurs projets ouverts sur leur écran, rangeront leur chaise et marcheront autour de la classe pour voir les projets de tout le monde.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Activité hors ligne (facultative)
+
+      Si les apprenants ont besoin de prendre une pause, accordez-leur 10 minutes que ce soit pour aller à la salle de bains, boire de l'eau ou manger une collation. Vous avez aussi le choix de faire une activité hors ligne au milieu de l'atelier pour leur permettre de se dégourdir les jambes. Ces activités prennent environ 10 minutes, et vous pouvez en choisir une parmi la <a href="http://bit.ly/activités-hors-ligne-doc">liste d'activités</a>. Activité recommandée : Le robot.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Script de fermeture
+
+        Qui peut me nommer une chose qu'il a apprise aujourd'hui? (<strong>Consultez la diapositive n°39 pour avoir des exemples</strong>. Si personne ne lève la main, vous pouvez demander à un apprenant qui était particulièrement engagé pendant l'atelier de dire un mot ou vous pouvez repasser certaines notions clés de l'atelier.)
+
+        Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnés par vos projets!
+
+        Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site kidslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+        Avant de partir, applaudissons chaleureusement nos mentors!
+
+        Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+    </script>
+  </section>
+
+  </main><!-- Section pricipale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
