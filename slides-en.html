@@ -115,6 +115,7 @@
     <section class="slide centered" data-markdown>
       <script type="text/template">
        ![Coders Code Banner](framework/img/workshop/scroll2.png)
+
          ## 1. ASK FOR HELP  <!-- .element: class="delayed" -->
          ## 2. BE PRESENT  <!-- .element: class="delayed" -->
          ## 3. TRY YOUR BEST!  <!-- .element: class="delayed" -->
@@ -219,6 +220,37 @@
       </script>
     </section>
 
+    <!--(formerly) Slide 19-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        #LET'S GET CODING!
+      </script>
+    </section>
+
+    <!--(formerly) Slide 20-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Texting with Ruby
+        ##Go to <strong><a href="https://repl.it">repl.it</a></strong> and search for 'ruby'
+
+        ![ruby editor](framework/img/workshop/replit.png)
+      </script>
+    </section>
+
+    <!--(formerly) Slide 21-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Say Hello!
+
+        ```ruby
+        puts "Hello World"  #Says Hello (this is a comment)
+        ```
+
+        ![ruby editor](framework/img/workshop/textmsg.png)
+
+      </script>
+    </section>
+
     <!--Slide 14-->
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -254,6 +286,32 @@
       </script>
     </section>
 
+    <!--Slide 22-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Math Whiz
+
+        Ask Ruby some math questions using <strong>operators</strong>!
+
+        ```ruby
+        puts 5 + 10  #Adding
+        puts 5 * 10  #Multiplying
+        puts 10 / 5  #Dividing
+        puts 10 - 5  #Subtracting
+        ```
+
+        ![http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM](framework/img/workshop/calculator.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM">Calculator Gif</a>
+          </div>
+
+      </script>
+    </section>
+
     <!--Slide 16-->
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -280,7 +338,7 @@
       <script type="text/template">
         #Stay Sharp!
 
-        Define box as an integer.
+        Define **box** as an integer.
 
         * Jump box times<!-- .element: class="delayed" -->
         * Wave box times<!-- .element: class="delayed" -->
@@ -294,6 +352,7 @@
       </script>
     </section>
 
+    <!--(formerly) Slide 23-->
     <!--Slide 18-->
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -395,6 +454,7 @@
       </script>
     </section>
 
+    <!--(formerly) Slide 24-->
     <!--Slide 24-->
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -418,6 +478,25 @@
       </script>
     </section>
 
+    <!--Slide 18-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Conditionals
+
+        <strong>Conditionals</strong> are either <strong>true</strong> or <strong>false</strong>.
+
+        <strong>if</strong> it is a school day... wake up at 7:00.
+
+        <strong>else</strong>... sleep in.
+
+        <p style="color:#00a076">Create your own!</p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">if ... </p><!-- .element: class="delayed" -->
+        <p style="color:#00a076">else ... </p><!-- .element: class="delayed" -->
+
+
+      </script>
+    </section>
+    
     <!--Slide 25-->
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -430,7 +509,7 @@
         >   greater than
         <=  less than or equal to
         >=  greater than or equal to
-        ==  equal to
+        ==  equal to (is the same as)
         ```
 
         For Example:
@@ -448,12 +527,12 @@
       <script type="text/template">
         # Create a Condition
 
-        Write an IF statement:
+        Write an *if* statement:
 
         ```ruby
         puts "What is your name?"  #Ask for user's name
         name = gets.chomp.downcase  #Get answer and make all letters lowercase
-        if name == "bob"  #Make a condition for IF the answer is bob
+        if name == "bob"  #Make a condition for *if* the answer is bob
           puts "WHAAAAT! We have the same name!"  #Say something if this is TRUE
         end
         ```
@@ -519,10 +598,10 @@
         * Ask the user to guess<!-- .element: class="delayed" -->
         * Get their answer<!-- .element: class="delayed" -->
         * Switch their answer to an integer<!-- .element: class="delayed" -->
-        * Create an IF condition if they guess too low<!-- .element: class="delayed" -->
-        * Create an ELSIF condition if they guess too high<!-- .element: class="delayed" -->
-        * Create an ELSE condition for the correct guess (only other option)<!-- .element: class="delayed" -->
-        * End your IF, ELSE statement<!-- .element: class="delayed" -->
+        * Create an if condition if they guess too low<!-- .element: class="delayed" -->
+        * Create an elsif condition if they guess too high<!-- .element: class="delayed" -->
+        * Create an else condition for the correct guess (only other option)<!-- .element: class="delayed" -->
+        * End your if, else statement<!-- .element: class="delayed" -->
 
       </script>
     </section>
@@ -531,8 +610,8 @@
     <section class="slide" data-markdown>
       <script type="text/template">
         # Guessing Game: Solution
-
-        Create an IF statement:
+        
+        Create an if statement:
 
         ```ruby
         number = 3  #Choose number
@@ -559,7 +638,7 @@
         Replace:
 
         ```ruby
-        number = rand(1..10)
+        number = rand 1..10
         ```
         Chooses a random number between 1 and 10
 
@@ -583,9 +662,7 @@
         ```ruby
         5.times do  #Loop the program 5 times
 
-
-          *JAZZ HANDS*
-
+          * JAZZ HANDS *
 
         end  #End the loop
         puts "That's all, folks!"
@@ -651,7 +728,7 @@
         * Set up the story! Use ```puts "String"``` (add a pause with ```sleep 2```)
         * Ask a question with two options: A or B
         * Get the answer
-        * Create an IF, ELSIF statement:
+        * Create an if, elsif statement:
           * ```if choice == "A"``` or ```if choice.include? "A"```
           * Make something happen if they choose A
           * Create an ```elsif``` condition if they choose B
