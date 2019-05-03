@@ -1,3 +1,4 @@
+## English: (Scroll down for French)
 ## This content is featured in a monthly theme!
 
 In 2019, we want to challenge Canadians to pause and think, learn about, share, and work towards solving issues that affect us all on a global scale – while leveraging the power of technology!  More information on monthly themes [here](https://www.canadalearningcode.ca/monthly-themes/)
@@ -5,8 +6,6 @@ In 2019, we want to challenge Canadians to pause and think, learn about, share, 
 *July's theme is FOOD SECURITY.*
 
 See slide 9 for suggestions on how learners can incorporate this month’s theme into their projects.
-
-## English: (Scroll down for French)
 
 # Kids Learning Code: Programming with Ruby
 
@@ -79,6 +78,13 @@ Our general Rule of Thumb is that it's okay to add examples if you feel it could
 
 
 ## Version française
+## Ce contenu fait partie d'un thème mensuel!
+
+En 2019, nous encourageons la population du Canada à réfléchir, à apprendre, à partager et à collaborer pour résoudre des problèmes qui affectent toute la planète, tout cela, à l'aide de la technologie! Vous trouverez plus d'informations sur les thèmes mensuels en consultant notre [site](https://www.canadalearningcode.ca/fr/le-code-a-le-potentiel-de-changer-le-monde).
+
+*Le thème de juillet est... LA SÉCURITÉ DES ALIMENTS.*
+
+Consultez la diapositive n° 9 pour donner au groupe des idées pour intégrer le thème à leurs projets. Les apprenantes ont le choix d'intégrer le thème à leur projets ou non.
 
 # Kids Learning Code : Programmation en Ruby
 
